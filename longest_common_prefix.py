@@ -28,3 +28,10 @@ def longestCommonPrefix(strs):
     print(ans)
 
 print(longestCommonPrefix(strs5))
+
+# Runtime: 23ms 
+# Beats: 99.6%
+
+# Memory: 16.56MB
+# Beats: 99.1%
+
