@@ -10,8 +10,8 @@ if needle in haystack:
         if needle in haystack[y:nl + y]:
             return y
 
-# Runtime:
+# Runtime: 24ms
 # Beats 98%
 
-# Memory:
+# Memory: 16.5 MB
 # Beats 90.4%
