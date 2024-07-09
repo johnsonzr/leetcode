@@ -1,3 +1,7 @@
+scores = pd.DataFrame({'score': [3.5, 3.65, 4, 3.85, 4, 3.65],
+          'id': [1, 2, 3, 4, 5, 6]})
+
+
 import pandas as pd
 
 def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
