@@ -25,9 +25,9 @@ def longestCommonPrefix(strs):
         ans = ''
     else:
         ans = strs[0][0:y-1]
-    print(ans)
+    return ans
 
-print(longestCommonPrefix(strs5))
+print(longestCommonPrefix(strs0))
 
 # Runtime: 23ms 
 # Beats: 99.6%

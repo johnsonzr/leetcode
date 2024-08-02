@@ -1,3 +1,4 @@
+import pandas as pd
 scores = pd.DataFrame({'score': [3.5, 3.65, 4, 3.85, 4, 3.65],
           'id': [1, 2, 3, 4, 5, 6]})
 
@@ -22,6 +23,8 @@ def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
         else:
             scores.iloc[x, 1] = x + 1 - y
     return scores
+
+print(order_scores(scores))
 
 
 # Runtime: 438ms

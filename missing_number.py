@@ -1,4 +1,4 @@
-def missingNumber(self, nums):
+def missingNumber(nums):
     """
     :type nums: List[int]
     :rtype: int
@@ -10,7 +10,7 @@ def missingNumber(self, nums):
 
 nums = [9,6,4,2,3,5,7,0,1]
 
-missingNumber(nums)
+print(missingNumber(nums))
 
 
 # Runtime: 93ms
