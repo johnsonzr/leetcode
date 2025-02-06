@@ -14,9 +14,14 @@ def lengthOfLongestSubstring(s):
     return max(ans)
 
 example = 'abcabcbb'
-lengthOfLongestSubstring(example)
+print(lengthOfLongestSubstring(example))
 
 
 
-# Runtime: 23ms Beats: 33%
-# Memory: 17.8MB  Beats 45%
+# Runtime: 23ms 
+# Beats: 33%
+
+# Memory: 17.8MB  
+# Beats 45%
+
+# Difficulty: Medium
